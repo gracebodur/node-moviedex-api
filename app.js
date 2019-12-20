@@ -11,7 +11,7 @@ const helmet = require('helmet')
 //validate X
 //middleware x
 //filtering
-//cors, helmet
+//cors, helme
 
 
 const app = express()
