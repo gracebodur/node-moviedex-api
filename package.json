@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
   "keywords": [],
   "engines": {
-    "node": "v8.9.4"
+    "node": "v10.17.0"
   },
   "author": "",
   "license": "ISC",

@@ -4,17 +4,6 @@ const morgan = require("morgan");
 const validMovies = require("./moviedex.json");
 const cors = require("cors");
 const helmet = require("helmet");
-
-// Hide secrets. X
-// Respect the PORT from the environment. X
-// Use minimal logging. X
-// Remove unnecessary console logs.
-// Hide sensitive server error messages.X
-// Use a different API_TOKEN.
-// Make and configure a Procfile.X
-// Specify which version of Node the application uses.
-// Audit our packages.
-
 const app = express();
 const morganSetting = process.env.NODE_ENV === "production" ? "tiny" : "common";
 
